@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IR.Chatbots.Common\IR.Chatbots.Common.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.Data.Models\IR.Chatbots.Data.Models.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.Database\IR.Chatbots.Database.csproj" />
+  </ItemGroup>
+
+</Project>

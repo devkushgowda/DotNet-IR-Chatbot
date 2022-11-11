@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Request\Interfaces\**" />
+    <EmbeddedResource Remove="Request\Interfaces\**" />
+    <None Remove="Request\Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bot.Builder" Version="4.10.3" />
+    <PackageReference Include="Microsoft.Extensions.ML" Version="1.5.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IR.Chatbots.Actions\IR.Chatbots.Actions.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.Common\IR.Chatbots.Common.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.Data.Models\IR.Chatbots.Data.Models.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.Database\IR.Chatbots.Database.csproj" />
+    <ProjectReference Include="..\IR.Chatbots.ML\IR.Chatbots.ML.csproj" />
+  </ItemGroup>
+
+</Project>
