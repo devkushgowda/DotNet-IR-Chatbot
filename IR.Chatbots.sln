@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IR.Chatbots", "IR.Chatbots\IR.Chatbots.csproj", "{D0E1DA72-AB4F-4AFC-9224-364069E1D682}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IR.Chatbots.Web.Portal", "IR.Chatbots.Web.Portal\IR.Chatbots.Web.Portal.csproj", "{9CE46EBF-C82D-41B4-9E0D-870CB284A8A1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IR.Chatbots.Database", "IR.Chatbots.Database\IR.Chatbots.Database.csproj", "{991C9120-AC62-4376-8AC5-AD2597658BF4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IR.Chatbots.Common", "IR.Chatbots.Common\IR.Chatbots.Common.csproj", "{C4767CC6-35C9-48D8-8DEC-7091B2C169CD}"
@@ -31,10 +29,6 @@ Global
 		{D0E1DA72-AB4F-4AFC-9224-364069E1D682}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0E1DA72-AB4F-4AFC-9224-364069E1D682}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0E1DA72-AB4F-4AFC-9224-364069E1D682}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9CE46EBF-C82D-41B4-9E0D-870CB284A8A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9CE46EBF-C82D-41B4-9E0D-870CB284A8A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9CE46EBF-C82D-41B4-9E0D-870CB284A8A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9CE46EBF-C82D-41B4-9E0D-870CB284A8A1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{991C9120-AC62-4376-8AC5-AD2597658BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{991C9120-AC62-4376-8AC5-AD2597658BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{991C9120-AC62-4376-8AC5-AD2597658BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
