@@ -1,20 +1,14 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.BotFramework;
 using Microsoft.Bot.Builder.Integration.AspNet.Core;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.ML;
 using IR.Chatbots.Bots;
 using IR.Chatbots.Database.MongoDB;
 using IR.Chatbots.ML;
-using IR.Chatbots.ML.Interfaces;
-using IR.Chatbots.ML.Models;
-using System;
 using System.IO;
-using System.Threading.Tasks;
 
 //[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]
 

@@ -2,12 +2,8 @@
 using System.Threading.Tasks;
 using log4net;
 using Microsoft.Bot.Builder;
-using Microsoft.Extensions.ML;
 using IR.Chatbots.Common.Logging;
 using IR.Chatbots.Engine.Session;
-using IR.Chatbots.Engine.Test;
-using IR.Chatbots.ML.Interfaces;
-using IR.Chatbots.ML.Models;
 
 namespace IR.Chatbots.Bots
 {
