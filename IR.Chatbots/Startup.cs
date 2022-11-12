@@ -9,6 +9,10 @@ using IR.Chatbots.Bots;
 using IR.Chatbots.Database.MongoDB;
 using IR.Chatbots.ML;
 using System.IO;
+using System;
+using Microsoft.AspNetCore.Hosting.Server.Features;
+using System.Linq;
+using Microsoft.AspNetCore.Hosting.Server;
 
 //[assembly: log4net.Config.XmlConfigurator(ConfigFile = "log4net.config", Watch = true)]
 
@@ -60,6 +64,11 @@ namespace IR.Chatbots
             PredictionEngineFactory.Init("Environment", "data/environment-model.zip");
             PredictionEngineFactory.Init("Any", "data/any-model.zip");
             PredictionEngineFactory.Init("Chit-Chat", "data/chitchat-model.zip");
+        }
+
+        private void PrintPort(IApplicationBuilder app)
+        {
+            Console.WriteLine($"Listening on the following addresses: {}");
         }
 
         private ILoggerFactory ConfigureLog4Net(string logConfigFileName = LogConfigFile)
